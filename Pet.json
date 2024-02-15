@@ -1,0 +1,244 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "보리",
+        "age": "2살",
+        "breed":"시츄",
+        "gender":"여아",
+        "location": "강남점"
+      },
+      {
+        "id": 2,
+        "name": "태민",
+        "age": "2살",
+        "breed":"잡종",
+        "gender":"남아",
+        "location": "강남점"
+      },
+      {
+        "id": 3,
+        "name": "준이",
+        "age": "3살",
+        "breed":"잡종",
+        "gender":"여아",
+        "location": "강남점"
+      },
+      {
+        "id": 4,
+        "name": "봉디",
+        "age": "2살",
+        "breed":"스피츠",
+        "gender":"여아",
+        "location": "강남점"
+      },
+      {
+        "id": 5,
+        "name": "쿠키",
+        "age": "1살",
+        "breed":"치와와",
+        "gender":"남아",
+        "location": "강남점"
+      },
+      {
+        "id": 6,
+        "name": "댕댕이",
+        "age": "2살",
+        "breed":"잡종",
+        "gender":"남아",
+        "location": "공덕점"
+      },
+      {
+        "id": 7,
+        "name": "만두",
+        "age": "2살",
+        "breed":"코리안숏헤어",
+        "gender":"여아",
+        "location": "공덕점"
+      },
+      {
+        "id": 8,
+        "name": "새싹이",
+        "age": "3살",
+        "breed":"페르시안",
+        "gender":"남아",
+        "location": "공덕점"
+      },
+      {
+        "id": 9,
+        "name": "새벽이",
+        "age": "3살",
+        "breed":"페르시안",
+        "gender":"남아",
+        "location": "공덕점"
+      },
+      {
+        "id": 10,
+        "name": "하루",
+        "age": "2살",
+        "breed":"말티즈",
+        "gender":"여아",
+        "location": "공덕점"
+      },
+      {
+        "id": 11,
+        "name": "뱅이",
+        "age": "1살",
+        "breed":"뱅갈",
+        "gender":"남아",
+        "location": "노원점"
+      },
+      {
+        "id": 12,
+        "name": "복순",
+        "age": "4살",
+        "breed":"시츄",
+        "gender":"여아",
+        "location": "노원점"
+      },
+      {
+        "id": 13,
+        "name": "빵이",
+        "age": "3살",
+        "breed":"푸들",
+        "gender":"여아",
+        "location": "노원점"
+      },
+      {
+        "id": 14,
+        "name": "케빈",
+        "age": "3살",
+        "breed":"잡종",
+        "gender":"남아",
+        "location": "노원점"
+      },
+      {
+        "id": 15,
+        "name": "그레이",
+        "age": "1살",
+        "breed":"러시안블루",
+        "gender":"남아",
+        "location": "노원점"
+      },
+      {
+        "id": 16,
+        "name": "남이",
+        "age": "1살",
+        "breed":"코리안숏헤어",
+        "gender":"남아",
+        "location": "분당점"
+      },
+      {
+        "id": 17,
+        "name": "초코",
+        "age": "4살",
+        "breed":"푸들",
+        "gender":"남아",
+        "location": "분당점"
+      },
+      {
+        "id": 18,
+        "name": "동남",
+        "age": "3살",
+        "breed":"잡종",
+        "gender":"여아",
+        "location": "분당점"
+      },
+      {
+        "id": 19,
+        "name": "총이",
+        "age": "2살",
+        "breed":"닥스훈트",
+        "gender":"남아",
+        "location": "분당점"
+      },
+      {
+        "id": 20,
+        "name": "햇님",
+        "age": "3살",
+        "breed":"푸들",
+        "gender":"여아",
+        "location": "분당점"
+      },
+      {
+        "id": 21,
+        "name": "산이",
+        "age": "3살",
+        "breed":"불독",
+        "gender":"남아",
+        "location": "안산점"
+      },
+      {
+        "id": 22,
+        "name": "치즈",
+        "age": "2살",
+        "breed":"코리안숏헤어",
+        "gender":"여아",
+        "location": "안산점"
+      },
+      {
+        "id": 23,
+        "name": "실이",
+        "age": "3살",
+        "breed":"코리안숏헤어",
+        "gender":"여아",
+        "location": "안산점"
+      },
+      {
+        "id": 24,
+        "name": "크림",
+        "age": "2살",
+        "breed":"말티즈",
+        "gender":"여아",
+        "location": "안산점"
+      },
+      {
+        "id": 25,
+        "name": "가비",
+        "age": "1살",
+        "breed":"말티즈",
+        "gender":"여아",
+        "location": "안산점"
+      },
+      {
+        "id": 26,
+        "name": "바다",
+        "age": "2살",
+        "breed":"푸들",
+        "gender":"남아",
+        "location": "수원점"
+      },
+      {
+        "id": 27,
+        "name": "럭키",
+        "age": "2살",
+        "breed":"잡종",
+        "gender":"남아",
+        "location": "수원점"
+      },
+      {
+        "id": 28,
+        "name": "사슴",
+        "age": "1살",
+        "breed":"닥스훈트",
+        "gender":"남아",
+        "location": "수원점"
+      },
+      {
+        "id": 29,
+        "name": "토리",
+        "age": "1살",
+        "breed":"푸들",
+        "gender":"남아",
+        "location": "수원점"
+      },
+      {
+        "id": 30,
+        "name": "모모",
+        "age": "1살",
+        "breed":"코리안숏헤어",
+        "gender":"남아",
+        "location": "수원점"
+      }
+    ]
+  }
