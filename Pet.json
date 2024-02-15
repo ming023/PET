@@ -7,7 +7,6 @@
         "breed":"시츄",
         "gender":"여아",
         "location": "강남점"
-        "img": "process.env.PUBLIC_URL/images/pet/pet1.jpeg" 
       },
       {
         "id": 2,
