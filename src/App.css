@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'HG꼬딕씨 40g';
+  src:url("./static/fonts/HGGGothicssi_Pro_40g_1_1.otf") ;
+}
 .App {
   text-align: center;
+  font-family: 'HG꼬딕씨 40g';
 }
+
 body {
   overflow-x: hidden;
 }

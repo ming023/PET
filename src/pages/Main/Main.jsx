@@ -15,10 +15,10 @@ function Main() {
 }
 export const SliderImage = () => {
   const images = [
-    "./images/slide1.png",
-    "./images/slide2.png",
-    "./images/slide3.png",
-    "./images/slide4.png",
+    "./images/slide/slide1.png",
+    "./images/slide/slide2.png",
+    "./images/slide/slide3.png",
+    "./images/slide/slide4.png",
   ];
 
   const settings = {

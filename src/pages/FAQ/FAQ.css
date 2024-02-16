@@ -1,37 +1,23 @@
-.category {
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: auto;
+.faq {
+  margin:30px;
 }
-.category a {
-  color: white;
-  font-weight: bold;
+.faq h1{
+  color: rgba(255, 192, 0);
+  margin:20px;
 }
-.category li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  background-color: rgba(255, 192, 0);
-  border-radius: 15px;
-  width: 80px;
-  height: 30px;
-  font-size: 16px;
-  margin: 30px;
+.faq p{
+  margin: 10px;
+  color: gray;
+  font-weight:bold;
 }
-.accordion_nav a {
-  margin: 30px;
-  font-size: 20px;
-  font-weight: 600;
-}
+
 .accordion_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .accordion-faq {
+  width:1000px;
   margin: 20px;
   border-top: 2px solid rgba(255, 192, 0);
   border-bottom: 2px solid rgba(255, 192, 0);

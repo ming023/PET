@@ -1,9 +1,17 @@
 .point {
+  margin: 30px;
+}
+.point p{
   margin: 10px;
+  color: gray;
+  font-weight:600;
 }
 .point_img img {
   width: 500px;
   height: 200px;
+}
+.event_img img {
+  width: 1000px;
 }
 .point h1 {
   color: rgba(255, 192, 0);
@@ -20,4 +28,34 @@
 }
 .content_navbar a:hover {
   color: rgba(255, 192, 0);
+}
+.pointDetail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.point_circle {
+  width: 80%;
+}
+#Detail_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+#Detail_li {
+  width: 200px;
+  margin: 30px;
+}
+#Detail_li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.point_circle img {
+  border:5px solid rgba(255, 192, 0);
+  width: 200px;
+  height: 200px;
 }

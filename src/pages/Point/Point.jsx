@@ -28,23 +28,10 @@ const Point = () => {
   return (
     <div>
       <Header />
-      <div className="Point">
+      <div className="point">
         <div className="point_img">
-          <img src="./img/content2.gif" />
-          <img src="./img/content4.gif" />
-        </div>
-        <div className="category">
-          <ul className="FAQ_category">
-            <li>
-              <a href="/community">입양후소식</a>
-            </li>
-            <li>
-              <a href="/point">보호아이들</a>
-            </li>
-            <li>
-              <a href="/faq">FAQ[문의]</a>
-            </li>
-          </ul>
+          <img src="./images/event/point1.jpeg" />
+          <img src="./images/event/point2.jpeg" />
         </div>
       </div>
       <div>

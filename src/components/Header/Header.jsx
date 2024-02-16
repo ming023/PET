@@ -25,7 +25,7 @@ function Header(){
                <a href="/community">입양 후 소식</a>
                </li>
             <li>
-               <a href="/">절차 및 관리</a>
+               <a href="/process">절차 및 관리</a>
                </li>
             <li><a href="/faq">FAQ</a></li>
             <a href="/login"><img src="/icon-user.svg"/></a>

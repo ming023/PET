@@ -3,96 +3,65 @@ import axios from "axios";
 import styled from "styled-components";
 
 const StyledPointDetail = styled.div`
-  .pointDetail {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .point_circle {
-    width: 80%;
-  }
-  #Detail_box {
-    display: flex;
-    justify-content: space-around;
+.modal {
+  display: ${(props) => (props.show ? "block" : "none")};
+  position: fixed;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 20px;
+  z-index: 1;
+}
+.modal_content {
+  overflow:hidden;
+}
+.modal_content p {
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
-    align-items: center;
-    flex-flow: row;
-    flex-wrap: wrap;
-    margin: 30px;
-  }
-  #Detail_li {
-    width: 200px;
-    margin: 30px;
-  }
-  #Detail_li > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .point_circle img {
-    border:3px solid rgba(255, 192, 0);
-    width: 200px;
-    height: 200px;
-  }
-  .modal {
-    display: ${(props) => (props.show ? "block" : "none")};
-    position: fixed;
-    width: 600px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid #ccc;
-    background-color: white;
-    padding: 20px;
-    z-index: 1;
-  }
-  .modal_content {
-    overflow:hidden;
-  }
-  .modal_content p {
-    overflow:hidden;
-    display:flex;
-    justify-content:center;
-    alien-items:center;
-
-  }
-  .modal_content p,h1{
-    margin:26px;
-  }
-  .modal_content h4{
-    margin-right:10px;
-    color:rgb(0, 14, 82);
-    font-weight:bold;
-  }
-  .modal img {
-    display: flex;
-    justify-content: space-between;
-    alien-items: center;
-    margin:30px;
-    float:left;
-  }
-  #modal_btn {
-    margin-top: 15px;
-    float: right;
-    background-color: rgba(255, 192, 0);
-    border: none;
-    color: black;
-    font-weight: bold;
-    width: 50px;
-  }
-  .modal_bg {
-    background-color: rgba(255, 192, 0);
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-  }
-  .modal_bg > h5 {
-    font-size: 18px;
-    font-weight:bold;
-  }
-  .modal-image {
-    cursor: pointer;
-  }
+}
+.modal_content p,h1{
+  margin:26px;
+}
+.modal_content h4{
+  margin-right:10px;
+  color:rgb(0, 14, 82);
+  font-weight:bold;
+}
+.modal img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:30px;
+  float:left;
+}
+#modal_btn {
+  margin-top: 15px;
+  float: right;
+  background-color: rgba(255, 192, 0);
+  border: none;
+  color: black;
+  font-weight: bold;
+  width: 50px;
+}
+.modal_bg {
+  background-color: rgba(255, 192, 0);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.modal_bg > h5 {
+  font-size: 18px;
+  font-weight:bold;
+}
+.modal-image {
+  cursor: pointer;
+}
 `;
 
 const PointDetail = ({ location }) => {
@@ -114,7 +83,7 @@ const PointDetail = ({ location }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://raw.githubusercontent.com/ming023/project/main/Pet.json"
+          "https://raw.githubusercontent.com/ming023/PET/main/src/Pet.json"
         );
 
         // Point.js에서 전달된 location을 기준으로 데이터를 필터링

@@ -1,0 +1,25 @@
+.community {
+  margin-top: 30px;
+  color:rgba(255, 192, 0);
+  font-weight: bold;
+}
+.community_Detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.community_circle {
+  width: 80%;
+}
+#community_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+#community_li {
+  width: 200px;
+  margin: 30px;
+}
