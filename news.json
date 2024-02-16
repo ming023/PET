@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "하루",
+        "location": "강남점"
+      },
+      {
+        "id": 2,
+        "name": "초코",
+        "location": "수원점"
+      },
+      {
+        "id": 3,
+        "name": "나나",
+        "location": "강남점"
+      },
+      {
+        "id": 4,
+        "name": "뽀송",
+        "location": "공덕점"
+      },
+      {
+        "id": 5,
+        "name": "뽀짝",
+        "location": "분당점"
+      },
+      {
+        "id": 6,
+        "name": "밍키",
+        "location": "수원점"
+      },
+      {
+        "id": 7,
+        "name": "쿠키",
+        "location": "노원점"
+      },
+      {
+        "id": 8,
+        "name": "루루",
+        "location": "안산점"
+      },
+      {
+        "id": 9,
+        "name": "시루",
+        "location": "분당점"
+      },
+      {
+        "id": 10,
+        "name": "설이",
+        "location": "공덕점"
+      },
+      {
+        "id": 11,
+        "name": "별이",
+        "location": "강남점"
+      },
+      {
+        "id": 12,
+        "name": "바다",
+        "location": "수원점"
+      }
+    ]
+  }
