@@ -3,65 +3,68 @@ import axios from "axios";
 import styled from "styled-components";
 
 const StyledPointDetail = styled.div`
-.modal {
-  display: ${(props) => (props.show ? "block" : "none")};
-  position: fixed;
-  width: 600px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid #ccc;
-  background-color: white;
-  padding: 20px;
-  z-index: 1;
-}
-.modal_content {
-  overflow:hidden;
-}
-.modal_content p {
-  overflow:hidden;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  .modal {
+    display: ${(props) => (props.show ? "block" : "none")};
+    position: fixed;
+    width: 500px;
+    height:400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+  }
+  .modal_content {
+    overflow:hidden;
+  }
+  .modal_content p {
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    alien-items:center;
 
-}
-.modal_content p,h1{
-  margin:26px;
-}
-.modal_content h4{
-  margin-right:10px;
-  color:rgb(0, 14, 82);
-  font-weight:bold;
-}
-.modal img {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin:30px;
-  float:left;
-}
-#modal_btn {
-  margin-top: 15px;
-  float: right;
-  background-color: rgba(255, 192, 0);
-  border: none;
-  color: black;
-  font-weight: bold;
-  width: 50px;
-}
-.modal_bg {
-  background-color: rgba(255, 192, 0);
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-}
-.modal_bg > h5 {
-  font-size: 18px;
-  font-weight:bold;
-}
-.modal-image {
-  cursor: pointer;
-}
+  }
+  .modal_content p,h1{
+    margin:26px;
+  }
+  .modal_content h4{
+    margin-right:10px;
+    color:rgb(0, 14, 82);
+    font-weight:bold;
+  }
+  .modal img {
+    display: flex;
+    justify-content: space-between;
+    alien-items: center;
+    margin:30px;
+    float:left;
+  }
+  #modal_btn {
+    margin-top: 20px;
+    float:right;
+    width:80px;
+    height:20px;
+    float: right;
+    background-color: rgba(255, 192, 0);
+    border: none;
+    color: black;
+    font-weight: bold;
+  }
+  .modal_bg {
+    background-color: rgba(255, 192, 0);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .modal_bg > h5 {
+    font-size: 18px;
+    font-weight:bold;
+  }
+  .modal-image {
+    cursor: pointer;
+  }
 `;
 
 const PointDetail = ({ location }) => {
@@ -127,7 +130,6 @@ const PointDetail = ({ location }) => {
                 <div className="modal_content">
                 <img
                   src={`./images/pet/pet${selectedPet.id}.jpeg`}
-                  width={300}
                   alt="Pet"
                 />
 
@@ -143,14 +145,14 @@ const PointDetail = ({ location }) => {
                     <br></br> 민쓰리에 찾아오게 되었습니다.<br></br>행복힌
                     유기동물 보호소 민쓰리입니다.
                   </h5>
-                  <button
+                </div>
+                <button
                     id="modal_btn"
                     onClick={handleCloseModal}
                     style={{ cursor: "pointer" }}
                   >
                     닫기
                   </button>
-                </div>
               </>
             )}
           </div>
