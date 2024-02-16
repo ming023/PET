@@ -1,0 +1,23 @@
+.point {
+  margin: 10px;
+}
+.point_img img {
+  width: 500px;
+  height: 200px;
+}
+.point h1 {
+  color: rgba(255, 192, 0);
+}
+.content_navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_navbar a {
+  font-weight: bold;
+  padding: 20px;
+  color: #000000;
+}
+.content_navbar a:hover {
+  color: rgba(255, 192, 0);
+}
