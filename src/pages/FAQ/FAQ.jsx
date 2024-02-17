@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import React, { useState, useEffect } from "react";
 import "../FAQ/FAQ.css";
+import { SliderImage } from "../../components/Slider/Slider";
 
 const FAQ = () => {
   const [tab, TabChange] = useState(0);
@@ -61,6 +62,7 @@ const FAQ = () => {
         ))}
       </div>
     </div>
+    <div className="slide_container"><SliderImage /> </div>
     </div>
   );
 };

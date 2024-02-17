@@ -2,14 +2,6 @@ import './Header.css';
 import React, { useState } from 'react';
 
 function Header(){
-
-   const [isCartOpen, setCartOpen] = useState(false);
- 
-
-   const toggleMenu = () => {
-      setCartOpen((prevIsOpen) => !prevIsOpen);
-    };
-
    return <div className="header_container">
     <header>
         <nav>

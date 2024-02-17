@@ -1,21 +1,3 @@
-.slide_container {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.slide{
-   width: 100%;
-   height: 300px;
- }
- .slide_img > img {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   height: 350px;
- }
- section{
-    margin: 0 auto;
-    width: 80%;
-    height: 100vh;
+ .main_img img {
+   width:1000px;
  }

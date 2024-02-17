@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import "./Point.css";
 import PointDetail from "./PointDetail";
+import { SliderImage } from "../../components/Slider/Slider";
 
 const Point = () => {
   const [tab, TabChange] = useState(0);
@@ -29,10 +30,7 @@ const Point = () => {
     <div>
       <Header />
       <div className="point">
-        <div className="point_img">
-          <img src="./images/event/point1.jpeg" />
-          <img src="./images/event/point2.jpeg" />
-        </div>
+        <div className="slide_container"><SliderImage /></div>
       </div>
       <div>
         <ul className="point">
