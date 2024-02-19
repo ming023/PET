@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "../../components/Header/Header";
 import './Community.css';
+import Navbar from "../../components/Navbar/Navbar";
 const Community = () => {
 
   const [newsData, setNewsData] = useState([]);
@@ -24,6 +25,7 @@ const Community = () => {
   return (
     <div>
       <Header />
+      <Navbar />
       <div className="event">
         <div className="event_img">
           <img src="./images/event/news.jpeg"/>

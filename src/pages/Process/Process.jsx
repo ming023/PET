@@ -1,8 +1,10 @@
 import Header from "../../components/Header/Header";
+import Navbar from "../../components/Navbar/Navbar";
 const Process = () => {
   return (
     <div>
       <Header />
+      <Navbar />
       <div className="event">
         <div className="event_img">
           <img src="./images/event/process1.jpeg" width="1000px"/>

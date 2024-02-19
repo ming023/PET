@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import React, { useState, useEffect } from "react";
 import "../FAQ/FAQ.css";
 import { SliderImage } from "../../components/Slider/Slider";
+import Navbar from "../../components/Navbar/Navbar";
 
 const FAQ = () => {
   const [tab, TabChange] = useState(0);
@@ -38,6 +39,7 @@ const FAQ = () => {
   return (
     <div>
       <Header />
+      <Navbar />
       <div className="faq">
         <h1>FAQ</h1>
         <p>민쓰리에 대한 모든 궁금증을 풀어 드립니다.</p>

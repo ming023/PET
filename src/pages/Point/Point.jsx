@@ -4,6 +4,7 @@ import { Nav } from "react-bootstrap";
 import "./Point.css";
 import PointDetail from "./PointDetail";
 import { SliderImage } from "../../components/Slider/Slider";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Point = () => {
   const [tab, TabChange] = useState(0);
@@ -27,10 +28,11 @@ const Point = () => {
   };
 
   return (
-    <div>
+    <div style={{ position: 'relative', zIndex: 0 }}>
       <Header />
-      <div className="point">
-        <div className="slide_container"><SliderImage /></div>
+      <Navbar style={{ zIndex: 9 }} />
+      <div className="point" style={{ position: 'relative', zIndex: 1 }}>
+      <div className="slide_container" ><SliderImage/></div>
       </div>
       <div>
         <ul className="point">

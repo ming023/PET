@@ -1,0 +1,160 @@
+.nav_container {
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_container img {
+  width: 80px;
+  margin: 5px;
+}
+
+.application {
+  position: fixed;
+  width: 500px;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/public/images/navbar/application_p.jpeg");
+}
+.ask {
+  position: fixed;
+  width: 500px;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/public/images/navbar/ask_p.jpeg");
+}
+.adopt {
+  position: fixed;
+  width: 500px;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/public/images/navbar/adopt.jpeg");
+}
+.register {
+  position: fixed;
+  width: 500px;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/public/images/navbar/register.jpeg");
+}
+
+.application img,
+.ask img,
+.adopt img,
+.register img {
+  display: inline-block;
+  border: 1px solid rgba(255, 192, 0);
+  width: 100%;
+}
+
+.application p,
+.ask p,
+.adopt p,
+.register p {
+  float: right;
+  background-color: rgba(255, 192, 0);
+  border-radius: 50%;
+  color: white;
+  width: 35px;
+  height: 35px;
+  font-size: 28px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+.application button {
+  width: 300px;
+  height: 100px;
+  border: none;
+  background-color: rgba(255, 192, 0);
+  color:white;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.application h5 {
+  margin: 20px;
+}
+.application_content {
+  height: 300px;
+}
+.ask_content {
+  margin-top: 60px;
+}
+.ask input {
+  width: 300px;
+  height: 30px;
+  margin: 40px;
+}
+.ask textarea {
+  width: 450px;
+  height: 300px;
+}
+.ask button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 192, 0);
+  border-radius: 10px;
+  font-size: 20px;
+}
+.adopt_content,
+.register_content {
+  margin-top: 90px;
+}
+.adopt input,
+.register input {
+  width: 450px;
+  height: 30px;
+  margin: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 192, 0);
+}
+
+.adopt_checkbox,
+.register_checkbox {
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adopt_checkbox input,
+.register_checkbox input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+.adopt button,
+.register button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 192, 0);
+  border-radius: 10px;
+  font-size: 20px;
+}
+.register textarea {
+  width: 450px;
+  height: 130px;
+}
