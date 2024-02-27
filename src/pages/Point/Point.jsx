@@ -28,10 +28,10 @@ const Point = () => {
   };
 
   return (
-    <div style={{ position: 'relative', zIndex: 0 }}>
+    <div>
       <Header />
-      <Navbar style={{ zIndex: 9 }} />
-      <div className="point" style={{ position: 'relative', zIndex: 1 }}>
+      <Navbar />
+      <div className="point">
       <div className="slide_container" ><SliderImage/></div>
       </div>
       <div>
