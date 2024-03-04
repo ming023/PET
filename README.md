@@ -2,7 +2,7 @@
 프로젝트 명: MINTHREE<br>
 배포 링크 : https://minthree.web.app/
 
-![1](https://github.com/ming023/PET/assets/149347120/6a658902-f0da-44f1-94ea-b948d445c65d)
+![1](https://github.com/ming023/PET/assets/149347120/904cd785-fc86-4426-af99-c412b2ee6570)
 ![2](https://github.com/ming023/PET/assets/149347120/9371893f-cb29-4f94-b94e-f2daebcb711b)
 ![3](https://github.com/ming023/PET/assets/149347120/fa60d8f2-56b8-474e-a229-c7b1ebdf5cd8)
 ![4](https://github.com/ming023/PET/assets/149347120/9628b0c5-43c9-49a7-b7c9-a0ca36cf15ec)
@@ -14,5 +14,5 @@
 ![10](https://github.com/ming023/PET/assets/149347120/151dd147-3edd-4189-975b-8a247dcd9cfe)
 ![11](https://github.com/ming023/PET/assets/149347120/197c0d37-3172-4866-b7c5-85f146aa7a41)
 ![12](https://github.com/ming023/PET/assets/149347120/f6ab1d46-4a93-40ad-8e22-bb2cb6dcb474)
-![13](https://github.com/ming023/PET/assets/149347120/7bd9c8cd-1c96-4e9d-b999-a3b3279a8761)
+![13](https://github.com/ming023/PET/assets/149347120/f5284399-c27f-4b21-8704-08cd2a876dc3)
 
