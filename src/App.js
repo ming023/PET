@@ -6,9 +6,9 @@ import SignUp from './pages/SignUp/SignUp';
 import Error404 from './pages/Error404/Error404';
 import FAQ from './pages/FAQ/FAQ';
 import Point from './pages/Point/Point';
-import Protect from './pages/Protect';
 import Process from './pages/Process/Process';
 import Community from './pages/Community/Community';
+import System from './pages/System/System';
 function App() {
   return (
     <div className="App">
@@ -18,10 +18,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/system" element={<System />} />
           <Route path="/process" element={<Process />} />
           <Route path="/community" element={<Community />} />
           <Route path="/point" element={<Point />} />
-          <Route path="/protect" element={<Protect />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>

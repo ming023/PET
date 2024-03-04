@@ -8,7 +8,7 @@ function Main() {
       <Navbar />
       <div className="main_img">
          <a href="/point"><img src="./images/event/point.jpeg"/></a>
-         <a href="/process"><img src="./images/event/point2.jpeg"/></a>
+         <a href="/system"><img src="./images/event/point2.jpeg"/></a>
         </div>
     </div>
   )

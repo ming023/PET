@@ -1,0 +1,8 @@
+.system {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.system img {
+    width: 60%;
+}
